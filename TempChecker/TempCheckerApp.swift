@@ -11,7 +11,7 @@ import SwiftUI
 struct TempCheckerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(tempC: "", tempCalc: 0, tempFResult: 0, tempF: "", tempCResult: 0)
         }
     }
 }

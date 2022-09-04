@@ -11,6 +11,7 @@
 		9B68074028723F2B00B56305 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68073F28723F2B00B56305 /* ContentView.swift */; };
 		9B68074228723F2C00B56305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B68074128723F2C00B56305 /* Assets.xcassets */; };
 		9B68074528723F2C00B56305 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B68074428723F2C00B56305 /* Preview Assets.xcassets */; };
+		9B88828A28C04CEF00884D3B /* CalculationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88828928C04CEF00884D3B /* CalculationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9B68073F28723F2B00B56305 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B68074128723F2C00B56305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B68074428723F2C00B56305 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B88828928C04CEF00884D3B /* CalculationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B0E115828BD1C70002E9A7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B68073F28723F2B00B56305 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9B68073128723F2B00B56305 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				9B68073D28723F2B00B56305 /* TempCheckerApp.swift */,
-				9B68073F28723F2B00B56305 /* ContentView.swift */,
+				9B88828828C04CBF00884D3B /* ViewModel */,
+				9B0E115828BD1C70002E9A7E /* Views */,
 				9B68074128723F2C00B56305 /* Assets.xcassets */,
 				9B68074328723F2C00B56305 /* Preview Content */,
 			);
@@ -65,6 +76,14 @@
 				9B68074428723F2C00B56305 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B88828828C04CBF00884D3B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B88828928C04CEF00884D3B /* CalculationModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B68074028723F2B00B56305 /* ContentView.swift in Sources */,
+				9B88828A28C04CEF00884D3B /* CalculationModel.swift in Sources */,
 				9B68073E28723F2B00B56305 /* TempCheckerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
