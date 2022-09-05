@@ -67,10 +67,14 @@ struct ContentView: View {
                     }
                     
                 }
+                .foregroundColor(.black)
                 
             }
             .navigationBarTitle("Temp Converter")
+            .background(.cyan)
+            
         }
+        
             
             
         
