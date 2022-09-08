@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B68073E28723F2B00B56305 /* TempCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68073D28723F2B00B56305 /* TempCheckerApp.swift */; };
+		9B68073E28723F2B00B56305 /* TempCheckerApp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68073D28723F2B00B56305 /* TempCheckerApp2.swift */; };
 		9B68074028723F2B00B56305 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B68073F28723F2B00B56305 /* ContentView.swift */; };
 		9B68074228723F2C00B56305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B68074128723F2C00B56305 /* Assets.xcassets */; };
 		9B68074528723F2C00B56305 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B68074428723F2C00B56305 /* Preview Assets.xcassets */; };
@@ -15,8 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B68073A28723F2B00B56305 /* TempChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B68073D28723F2B00B56305 /* TempCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCheckerApp.swift; sourceTree = "<group>"; };
+		9B68073A28723F2B00B56305 /* TempChecker22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempChecker22.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B68073D28723F2B00B56305 /* TempCheckerApp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCheckerApp2.swift; sourceTree = "<group>"; };
 		9B68073F28723F2B00B56305 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B68074128723F2C00B56305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B68074428723F2C00B56305 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		9B68073128723F2B00B56305 = {
 			isa = PBXGroup;
 			children = (
-				9B68073C28723F2B00B56305 /* TempChecker */,
+				9B68073C28723F2B00B56305 /* TempChecker2 */,
 				9B68073B28723F2B00B56305 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,21 +53,21 @@
 		9B68073B28723F2B00B56305 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B68073A28723F2B00B56305 /* TempChecker.app */,
+				9B68073A28723F2B00B56305 /* TempChecker22.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B68073C28723F2B00B56305 /* TempChecker */ = {
+		9B68073C28723F2B00B56305 /* TempChecker2 */ = {
 			isa = PBXGroup;
 			children = (
-				9B68073D28723F2B00B56305 /* TempCheckerApp.swift */,
+				9B68073D28723F2B00B56305 /* TempCheckerApp2.swift */,
 				9B88828828C04CBF00884D3B /* ViewModel */,
 				9B0E115828BD1C70002E9A7E /* Views */,
 				9B68074128723F2C00B56305 /* Assets.xcassets */,
 				9B68074328723F2C00B56305 /* Preview Content */,
 			);
-			path = TempChecker;
+			path = TempChecker2;
 			sourceTree = "<group>";
 		};
 		9B68074328723F2C00B56305 /* Preview Content */ = {
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B68073928723F2B00B56305 /* TempChecker */ = {
+		9B68073928723F2B00B56305 /* TempChecker2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B68074828723F2C00B56305 /* Build configuration list for PBXNativeTarget "TempChecker" */;
+			buildConfigurationList = 9B68074828723F2C00B56305 /* Build configuration list for PBXNativeTarget "TempChecker2" */;
 			buildPhases = (
 				9B68073628723F2B00B56305 /* Sources */,
 				9B68073728723F2B00B56305 /* Frameworks */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = TempChecker;
+			name = TempChecker2;
 			productName = TempChecker;
-			productReference = 9B68073A28723F2B00B56305 /* TempChecker.app */;
+			productReference = 9B68073A28723F2B00B56305 /* TempChecker22.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9B68073528723F2B00B56305 /* Build configuration list for PBXProject "TempChecker" */;
+			buildConfigurationList = 9B68073528723F2B00B56305 /* Build configuration list for PBXProject "TempChecker2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B68073928723F2B00B56305 /* TempChecker */,
+				9B68073928723F2B00B56305 /* TempChecker2 */,
 			);
 		};
 /* End PBXProject section */
@@ -158,7 +158,7 @@
 			files = (
 				9B68074028723F2B00B56305 /* ContentView.swift in Sources */,
 				9B88828A28C04CEF00884D3B /* CalculationModel.swift in Sources */,
-				9B68073E28723F2B00B56305 /* TempCheckerApp.swift in Sources */,
+				9B68073E28723F2B00B56305 /* TempCheckerApp2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +284,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TempChecker/Preview Content\"";
@@ -301,7 +302,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NicholasSazy.TempChecker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TempChecker22;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TempChecker/Preview Content\"";
@@ -330,7 +333,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NicholasSazy.TempChecker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TempChecker22;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B68073528723F2B00B56305 /* Build configuration list for PBXProject "TempChecker" */ = {
+		9B68073528723F2B00B56305 /* Build configuration list for PBXProject "TempChecker2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B68074628723F2C00B56305 /* Debug */,
@@ -349,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B68074828723F2C00B56305 /* Build configuration list for PBXNativeTarget "TempChecker" */ = {
+		9B68074828723F2C00B56305 /* Build configuration list for PBXNativeTarget "TempChecker2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B68074928723F2C00B56305 /* Debug */,

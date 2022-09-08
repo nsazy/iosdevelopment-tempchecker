@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct TempCheckerApp: App {
+struct TempCheckerApp2: App {
     var body: some Scene {
         WindowGroup {
             ContentView(tempC: "", tempCalc: 0, tempFResult: 0, tempF: "", tempCResult: 0)

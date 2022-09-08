@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  TempChecker
+//  TempChecker2
 //
 //  Created by Nicholas Sazy on 7/3/22.
 //
